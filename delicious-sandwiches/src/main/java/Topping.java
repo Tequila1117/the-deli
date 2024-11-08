@@ -30,6 +30,30 @@ public class Topping {
     public void setType(ToppingType type) {
         this.type = type;
     }
+
+    // Override toString for better formatting of Topping Info
+    @Override
+    public String toString() {
+        return name + " (" + type + ")";
+    }
+
+
+    // Array for Premium toppings
+    public static Topping[] premiumToppings = new Topping[]{
+            new Topping("Steak", ToppingType.PREMIUM),
+            new Topping("Ham", ToppingType.PREMIUM),
+            new Topping("Salami", ToppingType.PREMIUM),
+            new Topping("Roast Beef", ToppingType.PREMIUM),
+            new Topping("Chicken", ToppingType.PREMIUM),
+            new Topping("Bacon", ToppingType.PREMIUM),
+            new Topping("American Cheese", ToppingType.PREMIUM),
+            new Topping("Provolone Cheese", ToppingType.PREMIUM),
+            new Topping("Cheddar Cheese", ToppingType.PREMIUM),
+            new Topping("Swiss Cheese", ToppingType.PREMIUM)
+
+    };
 }
+
+
 
 
