@@ -3,6 +3,7 @@ import com.pluralsight.deli.ToppingType;
 
 
 public class Topping {
+
     private String name; //Name of topping
     private ToppingType type; // (Regular or Premium)
 
@@ -39,7 +40,7 @@ public class Topping {
 
 
     // Array for Premium toppings
-    public static Topping[] premiumToppings = new Topping[]{
+    public static Topping[] PremiumToppings = new Topping[]{
             new Topping("Steak", ToppingType.PREMIUM),
             new Topping("Ham", ToppingType.PREMIUM),
             new Topping("Salami", ToppingType.PREMIUM),
@@ -52,7 +53,32 @@ public class Topping {
             new Topping("Swiss Cheese", ToppingType.PREMIUM)
 
     };
+    // Array for Regular Toppings
+    public static Topping[] RegularToppings = new Topping[]{
+            new Topping("Lettuce", ToppingType.REGULAR),
+            new Topping("Peppers", ToppingType.REGULAR),
+            new Topping("Onions", ToppingType.REGULAR),
+            new Topping("Tomatoes", ToppingType.REGULAR),
+            new Topping("Jalapenos", ToppingType.REGULAR),
+            new Topping("Cucumbers", ToppingType.REGULAR),
+            new Topping("Pickles", ToppingType.REGULAR),
+            new Topping("Guacamole", ToppingType.REGULAR),
+            new Topping("Mushrooms", ToppingType.REGULAR)
+
+    };
+
+    // Method to display all toppings regardless of type
+    public static void displayToppings(Topping[] toppings) {
+        if (toppings != null) {
+            for (Topping topping : toppings) {
+                System.out.println(topping);
+            }
+        } else {
+            System.out.println("No toppings available.");
+        }
+    }
 }
+
 
 
 
