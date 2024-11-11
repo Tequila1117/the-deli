@@ -14,7 +14,13 @@ public class Order {
     // Constructor
     public Order(){
         this.drinks = new ArrayList<>();
+    }
 
+    //Getters
+    public String getOrder(){
+        String size = drinks.get(0).getSize().toString();
+        String type = drinks.get(0).getType().toString();
+        return size + " " + type;
     }
 
 }

@@ -30,12 +30,13 @@ public class DeliApp {
 
         Drink drink1;
         drink1 = new Drink(DrinkSize.SMALL, DrinkType.COKE);
-        System.out.println("Made one drink: " + drink1.getSize() + " " + drink1.getType() );
-
 
 
 
     Order order1 = new Order(); // declaring an order object and initializing it on the same line.
+    order1.addDrink(drink1);
+    System.out.println("Order 1: " + order1.getOrder());
+
 
 
     }

@@ -14,6 +14,16 @@ public class Drink {
         this.size = size;
     }
 
+    // Method to print a drink
+    @Override
+    public String toString() {
+        return "Drink{" +
+                "size=" + size +
+                ", type=" + type +
+                '}';
+    }
+
+
     // Getter and setters for drink type and size
 
 
