@@ -2,7 +2,7 @@ package com.pluralsight.deli;
 
 public enum BreadType {
 
-// Constants for each type of bread with their string descriptiongit add -A
+// Constants for each type of bread with their string description
     WHITE("White Bread"), WHEAT("Wheat Bread"), RYE("Rye Bread"), WRAP("Wrap Bread");
 
 

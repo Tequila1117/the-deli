@@ -4,7 +4,7 @@ import com.pluralsight.deli.ToppingType;
 
 public class Topping {
 
-    private String name; //Name of topping
+    private String name; //Name of topping (declaration of data type String called name)
     private ToppingType type; // (Regular or Premium)
 
     // Constructor to initialize Topping with the name and type

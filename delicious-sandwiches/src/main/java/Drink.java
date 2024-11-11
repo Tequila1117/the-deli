@@ -1,25 +1,28 @@
 import com.pluralsight.deli.DrinkSize;
+import com.pluralsight.deli.DrinkType;
 
 import java.util.List;
 
 public class Drink {
 
-    private List<Drink> drinks; // Array to store drink options
     private DrinkSize size;
+    private DrinkType type;
 
-    //Constructor to initialize the size and drinks array
-    public Drink(List<Drink> drinks, DrinkSize size) {
-        this.drinks = drinks;
+    //Constructor to initialize the size and drink type array
+    public Drink(DrinkSize size, DrinkType type) {
+        this.type = type;
         this.size = size;
     }
 
-    // Getter and setters for drinks and size
-    public List<Drink> getDrinks() {
-        return drinks;
+    // Getter and setters for drink type and size
+
+
+    public DrinkType getType() {
+        return type;
     }
 
-    public void setDrinks(List<Drink> drinks) {
-        this.drinks = drinks;
+    public void setType(DrinkType type) {
+        this.type = type;
     }
 
     public DrinkSize getSize() {
