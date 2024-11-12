@@ -30,4 +30,17 @@ public abstract class Item {
     public void setPrice(double price) {
         this.price = price;
     }
+
+
+    // Abstract method to calculate cost (overridden in subclasses)
+    public abstract double calculateCost();
+
+    // Override toString to display item details
+
+    @Override
+    public String toString() {
+        return name + " - $" + price;
+
+
+}
 }
