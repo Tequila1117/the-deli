@@ -22,9 +22,9 @@ public class DeliApp {
 //              ╘══════════════════╛
 //              """);
 //        Topping.displayToppings(Topping.RegularToppings);
-//
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Enter an option: ");
+
+       Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter an option: ");
 
    //  Order orders is the class/data-type declaration
 
