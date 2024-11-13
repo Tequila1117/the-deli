@@ -1,2 +1,5 @@
-public class Chip {
+package com.pluralsight.deli;
+
+public class Chip  {
+
 }

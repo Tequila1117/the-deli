@@ -17,10 +17,7 @@ public class Drink {
     // Method to print a drink
     @Override
     public String toString() {
-        return "Drink{" +
-                "size=" + size +
-                ", type=" + type +
-                '}';
+        return "Drink{" + "Size =" + size + ", Type =" + type + '}';
     }
 
 
