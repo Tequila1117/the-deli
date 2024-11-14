@@ -1,5 +1,4 @@
-import com.pluralsight.deli.ToppingType;
-
+package com.pluralsight.deli;
 
 
 public class Topping {
@@ -7,7 +6,7 @@ public class Topping {
     private String name; //Name of topping (declaration of data type String called name)
     private ToppingType type; // (Regular or Premium)
 
-    // Constructor to initialize Topping with the name and type
+    // Constructor to initialize com.pluralsight.deli.Topping with the name and type
     public Topping(String name, ToppingType type) {
         this.name = name;
         this.type = type;
@@ -32,7 +31,7 @@ public class Topping {
         this.type = type;
     }
 
-    // Override toString for better formatting of Topping Info
+    // Override toString for better formatting of com.pluralsight.deli.Topping Info
     @Override
     public String toString() {
         return name + " (" + type + ")";

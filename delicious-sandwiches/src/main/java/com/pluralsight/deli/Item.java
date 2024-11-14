@@ -1,3 +1,5 @@
+package com.pluralsight.deli;
+
 public abstract class Item {
 
     // Instance variables

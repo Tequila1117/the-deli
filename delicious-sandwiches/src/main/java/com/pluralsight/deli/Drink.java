@@ -1,24 +1,29 @@
-import com.pluralsight.deli.DrinkSize;
-import com.pluralsight.deli.DrinkType;
+package com.pluralsight.deli;
 
-import java.util.List;
-
-public class Drink {
+public class Drink extends Item{
 
     private DrinkSize size;
     private DrinkType type;
 
     //Constructor to initialize the size and drink type array
-    public Drink(DrinkSize size, DrinkType type) {
+    public Drink(DrinkSize size, DrinkType type, String name) {
+        super(name, 0);
         this.type = type;
         this.size = size;
     }
 
-    // Method to print a drink
-    @Override
-    public String toString() {
-        return "Drink{" + "Size =" + size + ", Type =" + type + '}';
-    }
+   @Override
+   public double calculateCost() {
+       double price = 0;
+     if (size == DrinkSize.SMALL) {
+         price = 2.00;
+   } else if (size == DrinkSize.MEDIUM) {
+         price = 2.50;
+     } else if (size == DrinkSize.LARGE) {
+         price = 3.00;
+     }
+     return price; }
+
 
 
     // Getter and setters for drink type and size

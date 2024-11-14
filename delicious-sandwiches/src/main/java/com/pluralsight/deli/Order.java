@@ -1,13 +1,14 @@
-import com.pluralsight.deli.Chip;
+package com.pluralsight.deli;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Order {
 
     private List<Drink> drinks;
     private List<Sandwich> sandwiches;
     private List<Chip> chips;  // List to hold chips
+
 
     public Order() {
         this.drinks = new ArrayList<>();
@@ -37,5 +38,18 @@ public class Order {
         }
         // Return order details
         return details.toString();
+    }
+
+    public void addSandwich(Sandwich sandwich) {
+        sandwiches.add(sandwich);
+    }
+
+    public double getPrice() {
+        return 0;
+    }
+
+    //Method to add drink to order
+    public void addDrink(Drink drink) {
+        drinks.add(drink);
     }
 }
