@@ -19,8 +19,8 @@ public class Receipt {
         String timestamp = new SimpleDateFormat("yyyyMMdd-HHmmss").format(new Date());
         String filename = "Receipt-" + timestamp + ".txt"; // Simplified filename
 
-        // Define the folder where the receipt will be saved (relative to your project directory)
-        String folder = "src/main/resources/";
+        // Define the folder where the receipt will be saved
+        String folder = "C:/pluralsight/the-deli/delicious-sandwiches/src/main/resources/Receipt";
 
         // Start building the receipt content
         StringBuilder receiptContent = new StringBuilder();
