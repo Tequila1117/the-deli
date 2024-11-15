@@ -1,0 +1,13 @@
+╒═════════════════════════════════════════╕
+                DELI-cious Sandwiches
+          Thank you for your order!
+╘═════════════════════════════════════════╛
+
+Order Details:
+drink - $2.5
+Custom Sandwich - $12.6
+Chip: SUNCHIPS - $1.5
+
+-------------------------------------------------
+Total Price: $16.60
+Order Processed On: 2024-11-15 01:52:38

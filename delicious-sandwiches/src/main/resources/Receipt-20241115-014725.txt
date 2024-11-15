@@ -1,0 +1,12 @@
+╒═════════════════════════════════════════╕
+                DELI-cious Sandwiches
+          Thank you for your order!
+╘═════════════════════════════════════════╛
+
+Order Details:
+drink - $2.5
+Custom Sandwich - $12.6
+
+-------------------------------------------------
+Total Price: $15.10
+Order Processed On: 2024-11-15 01:47:25

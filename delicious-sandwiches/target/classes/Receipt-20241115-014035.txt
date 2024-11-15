@@ -1,0 +1,13 @@
+╒═════════════════════════════════════════╕
+                DELI-cious Sandwiches
+          Thank you for your order!
+╘═════════════════════════════════════════╛
+
+Order Details:
+drink - $2.5
+Custom Sandwich - $9.0
+Chip: DORITOS - $1.5
+
+-------------------------------------------------
+Total Price: $13.00
+Order Processed On: 2024-11-15 01:40:35

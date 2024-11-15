@@ -1,7 +1,5 @@
 package com.pluralsight.deli;
-import com.pluralsight.deli.UserInterface;
 
-import java.util.Scanner;
 
 public class DeliApp {
     public static void main(String[] args) {

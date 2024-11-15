@@ -2,6 +2,6 @@ package com.pluralsight.deli;
 
 public enum SandwichSize {
 
-SMALL, MEDIUM, LARGE,
+FOUR_INCHES, EIGHT_INCHES, TWELVE_INCHES,
 }
 
