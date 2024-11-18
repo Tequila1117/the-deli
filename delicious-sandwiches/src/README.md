@@ -59,7 +59,7 @@ Here's an overview of the file and directory structure:
 
 
 
-## Visuals
+## Visuals 👁‍🗨
 
 Here are a few visual of the home screens in the appliation:
 
@@ -86,7 +86,7 @@ Here are a few visual of the home screens in the appliation:
 ![[Screenshot of Receipt]](images/Receipt.PNG)
 
 
-## Unique Piece of Code: Using Enums for Drink Size Selection
+## 🧡 Unique Piece of Code: Using Enums for Drink Size Selection 🧡
 
 In this project, I used Java enum to represent different sizes of drinks, which allows for better organization, readability, and maintainability of the code.
 

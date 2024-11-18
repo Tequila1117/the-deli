@@ -9,6 +9,7 @@ public class UserInterface {
 
     // Method to handle flow between screens
     public void runApp() {
+
         displayHomeScreen();
     }
 
