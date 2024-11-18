@@ -1,6 +1,6 @@
 package com.pluralsight.deli;
 
-public class Drink extends Item{
+public class Drink extends Item {
 
     private DrinkSize size;
     private DrinkType type;
@@ -12,42 +12,25 @@ public class Drink extends Item{
         this.size = size;
     }
 
-   @Override
-   public double calculateCost() {
-       // Set the price based on size
+    @Override
+    public double calculateCost() {
+        // Set the price based on size
         double price = 0.0;
 
         // Determine price based on size of the drink
         if (size == DrinkSize.SMALL) {
-         price = 2.00;
-   } else if (size == DrinkSize.MEDIUM) {
-         price = 2.50;
-     } else if (size == DrinkSize.LARGE) {
-         price = 3.00;
-     }
+            price = 2.00;
+        } else if (size == DrinkSize.MEDIUM) {
+            price = 2.50;
+        } else if (size == DrinkSize.LARGE) {
+            price = 3.00;
+        }
 
         setPrice(price);
 
-        return price; }
-
-
-
-    // Getter and setters for drink type and size
-
-
-    public DrinkType getType() {
-        return type;
+        return price;
     }
 
-    public void setType(DrinkType type) {
-        this.type = type;
-    }
 
-    public DrinkSize getSize() {
-        return size;
-    }
 
-    public void setSize(DrinkSize size) {
-        this.size = size;
-    }
 }

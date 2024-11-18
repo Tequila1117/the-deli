@@ -154,45 +154,4 @@ public class Sandwich extends Item {
         return price;
     }
 
-    // Getters and setters for the other instance variables
-
-    public BreadType getBreadType() {
-        return breadType;
-    }
-
-    public void setBreadType(BreadType breadType) {
-        this.breadType = breadType;
-    }
-
-    public SandwichSize getSize() {
-        return size;
-    }
-
-    public void setSize(SandwichSize size) {
-        this.size = size;
-    }
-
-    public List<Topping> getToppings() {
-        return toppings;
-    }
-
-    public void setToppings(List<Topping> toppings) {
-        this.toppings = toppings;
-    }
-
-    public boolean isToasted() {
-        return isToasted;
-    }
-
-    public void setToasted(boolean toasted) {
-        isToasted = toasted;
-    }
-
-    public SauceType getSauceType() {
-        return sauceType;
-    }
-
-    public void setSauceType(SauceType sauceType) {
-        this.sauceType = sauceType;
-    }
 }

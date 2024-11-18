@@ -13,14 +13,6 @@ public class Chip extends Item{
         this.chipType = chipType;
     }
 
-    // Getter and setter for chipType
-    public ChipType getChipType() {
-        return chipType;
-    }
-
-    public void setChipType(ChipType chipType) {
-        this.chipType = chipType;
-    }
 
     // Method to calculate cost, always returning the fixed price for chips
     public double calculateCost() {
